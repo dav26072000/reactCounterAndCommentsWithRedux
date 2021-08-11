@@ -1,4 +1,5 @@
 .App {
+  width: 100%;
   text-align: center;
 }
 
@@ -26,6 +27,56 @@
 
 .App-link {
   color: #61dafb;
+}
+/* calculator */
+.calculator {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator__main {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Comments */
+.comments__main {
+  margin-top: 3rem;
+}
+
+.comments__main-comments {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.comments__main-add {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.comment {
+  width: 50%;
+  border: 1px solid #282c34;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove-button {
+  width: 4rem;
+  height: 2rem;
+  color: white;
+  cursor: pointer;
+  background-color: rgb(250, 56, 56);
+  border: 1px solid #282c34;
+  border-radius: 1rem;
 }
 
 @keyframes App-logo-spin {
